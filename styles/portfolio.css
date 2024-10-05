@@ -1,11 +1,13 @@
 /* Common shared styles */
 body{
+margin: 0;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+ 
 }
 
 .text-primary{
@@ -15,20 +17,61 @@ body{
    border-radius: 5px;
    background-color:#FD6E0A;
    color: #fff;
-   border: 0;
+   border: 1px solid #FD6E0A;
    font-size: 20px;
    font-weight: 700;
-   padding: 15px 35px;
+   text-transform: uppercase;
+   padding: 13px 35px;
+   cursor: pointer;
+}
+
+.btn-contract:hover,
+.btn-primary:hover{
+    background-color:#3a3430;
+    color: #FD6E0A; 
+    transition: .8s;
+    border: 1px solid #3a3430; 
+ }
+ 
+ .btn-contract{
+    border-radius: 5px;
+    background-color:#FFF8F3;;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 11px 35px;
+    cursor: pointer;
+    margin-left: 50px;
+ }
+
+
+.down-img{
+padding-right: 10px;
+ }
+
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
 }
 
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
 
 /* nav related styles **/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 158px;
+    text-transform: uppercase;
 }
 .portfolio-title{
     color: #181818;
@@ -44,20 +87,69 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a{
     text-decoration: none;
     color: #474747;
 }
+nav a:hover{
+    color: #FD6E0A; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /* Header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-left:30px;
+}
+.dev-img{
+    background-image: url('../images/developer.png ');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 600px;
 }
 .banner .profile-pic{
-    width: 400px;
+    width: 500px;
 }
+.banner-grettings{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.banner-des{
+    margin-bottom: 30px;
+}
+
+
+/* Main section styles */
+
+
+
+
+/* About section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
