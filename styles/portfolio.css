@@ -152,9 +152,14 @@ main{
 
 /* About section styles */
 .about{
-    padding: 50px 250px 100px;
+    padding: 100px 250px 100px;
     border-radius: 10px;
     background-color: #FFF8F3;
+}
+.about-bg{
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    padding: 50px;
 }
 .section-title{
    text-transform: uppercase; 
@@ -171,3 +176,15 @@ table{
 .my-mail a:hover{
     color: #FD6E0A;
 }
+
+/* What I do section style */
+
+.what-i-do{
+    padding: 100px 250px 100px;
+    border-radius: 10px;
+    line-height: 30px;
+
+}
+
+
+
