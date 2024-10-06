@@ -144,7 +144,7 @@ nav a:hover{
 /* Main section styles */
 
 main{
- width:1365px;
+ max-width:1365px;
  margin: 100px auto;
 }
 
@@ -164,19 +164,24 @@ main{
 .section-title{
    text-transform: uppercase; 
 }
-table{
-    width: 100%;
-    text-align: center;
-    margin-top: 70px;
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
-.my-mail a{
+.about-info{
+    text-align: center;
+}
+a.my-mail{
     text-decoration: none;
     color: #474747;
 }
-.my-mail a:hover{
+a.my-mail:hover{
     color: #FD6E0A;
 }
-
+h4.info-title {
+    margin-top: 10px;
+}
 /* What I do section style */
 
 .what-i-do{
@@ -184,6 +189,18 @@ table{
     border-radius: 10px;
     line-height: 30px;
 
+}
+
+.skills-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.skill{
+    border: 1px solid transparent;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 
