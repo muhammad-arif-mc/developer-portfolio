@@ -231,6 +231,7 @@ h4.info-title {
 .resume-item-institute,
 .resume-item-description{
     color:#757575;
+    margin-top: -10px;
 }
 
 .button-container{
@@ -238,4 +239,17 @@ h4.info-title {
     display: flex;
     justify-content: center; 
     align-items: center; 
+}
+
+/* Footer style here */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+    max-width:1365px;
+    padding: 130px 270px;
+    
+   
 }
