@@ -248,8 +248,30 @@ footer{
 .footer-container{
     display: flex;
     gap: 100px;
-    max-width:1365px;
     padding: 130px 270px;
-    
-   
+
+}
+.footer-column{
+    width: 50%;
+ 
+}
+h3.section-title {
+    text-align: left;
+}
+p.footer-desction {
+    line-height: 28px;
+}
+.social-links a {
+    padding: 0 20px 0 0;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
 }
