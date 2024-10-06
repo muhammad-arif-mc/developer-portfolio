@@ -200,8 +200,18 @@ h4.info-title {
 .skill{
     border: 1px solid transparent;
     padding: 15px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
+.skill-description{
+    color: #757575;
+}
 
+/* Resume section style here */
 
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
 
